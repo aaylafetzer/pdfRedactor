@@ -1,0 +1,3 @@
+[submodule "thirdparty/pdf-redactor"]
+	path = pdfredactor
+	url = https://github.com/JoshData/pdf-redactor
