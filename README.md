@@ -12,4 +12,5 @@ redact as arguments, and direct stdout to a file. For example:
 
 - ``removepages.py``: Provide the input path as an argument and the page numbers to redact as trailing arguments. An
 output file can optionally be defined with ``-o``, but the program will overwrite the input file by default if an
-output file is not defined.
+output file is not defined. For example, to drop pages 3, 6, and 9 from input.pdf and write the result to output.pdf:
+```python3 removepages.py input.pdf  -o output.pdf 3 6 9```
